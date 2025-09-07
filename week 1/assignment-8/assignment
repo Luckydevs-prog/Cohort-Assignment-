@@ -1,0 +1,3 @@
+Write a function that takes a new object as input which has name , age  and gender and greets the user with their gender (Hi Mr/Mrs/Others harkirat, your age is 21)
+Assignment #3
+Also tell the user if they are legal to vote or not
