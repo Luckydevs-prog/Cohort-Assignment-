@@ -1,0 +1,68 @@
+/* Base styles */
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: rgb(70, 70, 70);
+  margin: 0;
+  color: white;
+}
+
+
+.container, .left, .right {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+table:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+th, td {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  padding: 10px;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+td:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+input[type="text"], input[type="date"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:hover, input[type="date"]:hover {
+  border-color: #ff4d4d;
+  box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+}
+
+button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #e60000;
+  transform: scale(1.05);
+}
